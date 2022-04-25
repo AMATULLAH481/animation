@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.box{
+    border: 2px solid;
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.box-1{
+    border: 2px solid;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.box-2{
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+    text-align: center;
+    background-color: blue;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.box-3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    text-align: center;
+    background-color: yellow;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo{
+    100%{transform: translate(600px,300px) rotate(180deg) scaleX(10) skew(-80deg);}
+}
